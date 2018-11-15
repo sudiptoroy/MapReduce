@@ -6,7 +6,7 @@ http://content.udacity-data.com/courses/ud617/purchases.txt.gz
 	cat purchases.txt | ./map.py | sort | ./reduce.py > data.log
 	
 ### Highest Sale
-	cat purchases.txt | ./m.py | sort  | ./r.py > data.log 
+	cat purchases.txt | ./mapper.py | sort  | ./reducer.py > data.log 
  
 
  
